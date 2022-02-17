@@ -1,0 +1,94 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'vue-multiselect/dist/vue-multiselect.min.css';
+@import "vue2-datepicker/index.css";
+@import 'select.css';
+@import 'modal.css';
+@import 'couriers.css';
+@import 'clients.css';
+@import 'transactions.css';
+@import 'viewerjs/dist/viewer.css';
+
+* {
+    box-shadow: none;
+}
+
+button:focus, a:focus, input:focus, textarea:focus {
+    outline: none;
+}
+
+input, input:focus, textarea:focus {
+    box-shadow: none !important;
+}
+.time-picker {
+    width: auto;
+    .mx-input-wrapper {
+        .mx-input {
+            height: auto;
+            border: none;
+            padding: 0;
+            width: 50px;
+            text-align: center;
+            font-size: 16px;
+            @apply text-gray-900 placeholder-gray-150;
+        }
+        .mx-icon-clear {
+            display: none;
+        }
+        .mx-icon-calendar {
+            display: none;
+        }
+    }
+}
+.vc-arrows-container .vc-arrow .vc-svg-icon path {
+    @apply fill-current text-orange-400;
+}
+.scrollbar::-webkit-scrollbar {
+    width: 4px;
+    background: #E0E0E0;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #BFBFBF;
+}
+.leaflet-container .leaflet-pane .leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
+
+.map-popup {
+    background: #FFF;
+    padding: 20px;
+    color: #000;
+    box-sizing: border-box;
+    width: 300px;
+    .name {
+        @apply font-semibold text-base text-gray-800 mr-6;
+    }
+    .order {
+        @apply text-sm text-gray-800;
+    }
+    .triangle {
+        transform: rotate(45deg);
+        left: calc(50% - 28px);
+    }
+}
+.map-icon {
+    visibility: visible!important; /* Оставляем иконку видимой при открытии попапа */
+    display: inline!important;    
+}
+.leaflet-pane {
+    .leaflet-popup {
+        bottom: 10px !important;
+        .leaflet-popup-content-wrapper {
+            overflow: inherit;
+        }
+    }
+}
+.leaflet-popup-tip-container {
+    display: none!important; /* Убираем родной указатель при открытом попапе */            
+}
+.leaflet-popup-content {
+    margin:0!important;    /* Убираем отступы у попапа */
+}

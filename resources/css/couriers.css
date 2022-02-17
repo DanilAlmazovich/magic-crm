@@ -1,0 +1,40 @@
+.courier-details {
+    .multiselect {
+        .multiselect__content-wrapper {
+            .multiselect__content {
+                /*.multiselect__element {*/
+                /*    &:nth-child(1) {*/
+                /*        .multiselect__option {*/
+                /*            @apply text-orange-400;*/
+                /*        }*/
+                /*    }*/
+                /*    &:nth-child(2) {*/
+                /*        .multiselect__option {*/
+                /*            @apply text-green-700;;*/
+                /*        }*/
+                /*    }*/
+                /*    &:nth-child(3) {*/
+                /*        .multiselect__option {*/
+                /*            @apply text-red-500;*/
+                /*        }*/
+                /*    }*/
+                /*    &:nth-child(4) {*/
+                /*        .multiselect__option {*/
+                /*            @apply text-red-400*/
+                /*        }*/
+                /*    }*/
+                /*    &:nth-child(5) {*/
+                /*        .multiselect__option {*/
+                /*            @apply text-red-300;*/
+                /*        }*/
+                /*    }*/
+                /*    &:nth-child(1) {*/
+                /*        .multiselect__option + .multiselect__option--highlight {*/
+                /*            @apply text-orange-400;*/
+                /*        }*/
+                /*    }*/
+                /*}*/
+            }
+        }
+    }
+}

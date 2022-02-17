@@ -1,0 +1,37 @@
+#clients {
+    .modal {
+        .clients {
+            .modal-block {
+                width: 55%;
+            }
+        }
+        .card-search {
+            .modal-block {
+                width: 554px;
+                border-radius: 0.75rem;
+                max-height: 60%;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                   width: 5px;
+                   background-color: #E0E0E0;
+                }
+                &::-webkit-scrollbar-thumb {
+                   border-radius: 10px;
+                   background-color: #8A8A8A;
+                }
+            }
+        }
+    }
+    .pagination {
+        border-left: none;
+        &:nth-child(5) {
+           border-top: none;
+           border-bottom: none;
+        }
+    }
+    .active {
+        border-top: none;
+        border-bottom: none;
+        background: #FFBE17;
+    }
+}

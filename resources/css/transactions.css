@@ -1,0 +1,33 @@
+.transactions {
+    .pagination {
+        border-left: none;
+    }
+    .active {
+        border-top: none;
+        border-bottom: none;
+        background: #FFBE17;
+    }
+    .checkbox {
+        flex-direction: row-reverse;
+    }
+    .checkbox .name {
+        margin-left: 15px;
+    }
+    .content:before {
+        right: calc(50% - 0.75rem);
+    }
+    .modal {
+        .credit {
+            .modal-block {
+                width: 50%;
+            }
+        }
+    }
+    .modal {
+        .commission {
+            .modal-block {
+                width: 65%;
+            }
+        }
+    }
+}

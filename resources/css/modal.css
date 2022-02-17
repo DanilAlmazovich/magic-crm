@@ -1,0 +1,34 @@
+.modal {
+    .modal-container {
+        .modal-block {
+            @apply mb-0;
+            width: 65%;
+            .close {
+                span {
+                    @apply text-gray-150;
+                }
+                svg {
+                    @apply hidden;
+                }
+            }
+        }
+    }
+    .confirmation {
+        .modal-block {
+            @apply rounded-bl-xl rounded-br-xl w-auto;
+            .button-close {
+                svg {
+                    @apply block text-gray-150;
+                }
+                span {
+                    @apply hidden;
+                }
+            }
+        }
+    }
+    .blocking-reason {
+        .modal-block {
+            width: 40%;
+        }
+    }
+}
